@@ -13,4 +13,4 @@ also injects css to the old fhda myportal so you don't see the nag message telli
 google how to install unpacked extensions because idk either
 
 # What's next
-make the extension not ddos fhda servers if they decide to get rid of the new portal
+make the extension not ddos fhda servers if they decide to get rid of the old portal
