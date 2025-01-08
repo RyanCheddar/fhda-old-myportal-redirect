@@ -10,11 +10,11 @@ redirects you from new fhda myportal to old fhda myportal
 also injects css to the old fhda myportal so you don't see the nag message telling you to switch
 
 # Installation
-Chrome/Opera/Edge/Most Browsers: [Chrome Web Store](https://chromewebstore.google.com/detail/reject-modernity-fhda-myp/dncldecedaaiofbaepaocnadgfmmacnl?authuser=0&hl=en-GB). 
+Chrome/Most Browsers: [Chrome Web Store](https://chromewebstore.google.com/detail/dncldecedaaiofbaepaocnadgfmmacnl/preview?hl=en-GB&authuser=0)
 
-Firefox: TBA firefox addons rejected the addon for being too niche. 
+Firefox: Download firefox.xpi below
 
-Safari: uhhhhh
+Safari: TBA
 
 # Supported Browsers
 i built this on manifest v3 it should work on most up-to-date modern browsers
