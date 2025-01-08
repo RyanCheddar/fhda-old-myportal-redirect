@@ -5,7 +5,7 @@
 
     "browser_specific_settings": {
       "gecko": {
-        "id": "reject_modernity@ryansbakery.dev",
+        "id": "rejectmodernity@ryansbakery.dev",
         "strict_min_version": "113.0"
       }
     },
