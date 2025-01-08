@@ -12,7 +12,7 @@ also injects css to the old fhda myportal so you don't see the nag message telli
 # Installation
 Chrome/Most Browsers: [Chrome Web Store](https://chromewebstore.google.com/detail/dncldecedaaiofbaepaocnadgfmmacnl/preview?hl=en-GB&authuser=0)
 
-Firefox: Download firefox.xpi below
+Firefox: [Download](https://github.com/RyanCheddar/fhda-old-myportal-redirect/releases/download/yay/firefox.xpi)
 
 Safari: TBA
 
