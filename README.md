@@ -10,8 +10,8 @@ redirects you from new fhda myportal to old fhda myportal
 also injects css to the old fhda myportal so you don't see the nag message telling you to switch
 
 # Installation
-Chrome/Opera/Edge/Most Browsers: https://chromewebstore.google.com/detail/reject-modernity-fhda-myp/dncldecedaaiofbaepaocnadgfmmacnl?authuser=0&hl=en-GB
-Firefox: TBA firefox addons rejected the addon for being too niche
+Chrome/Opera/Edge/Most Browsers: [Chrome Web Store](https://chromewebstore.google.com/detail/reject-modernity-fhda-myp/dncldecedaaiofbaepaocnadgfmmacnl?authuser=0&hl=en-GB). 
+Firefox: TBA firefox addons rejected the addon for being too niche. 
 Safari: uhhhhh
 
 # Supported Browsers
