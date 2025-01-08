@@ -10,7 +10,7 @@ redirects you from new fhda myportal to old fhda myportal
 also injects css to the old fhda myportal so you don't see the nag message telling you to switch
 
 # Installation
-Chrome/Most Browsers: [Chrome Web Store](https://chromewebstore.google.com/detail/dncldecedaaiofbaepaocnadgfmmacnl/preview?hl=en-GB&authuser=0)
+Chrome/Most Browsers: [Chrome Web Store](https://chromewebstore.google.com/detail/reject-modernity-fhda-myp/dncldecedaaiofbaepaocnadgfmmacnl?hl=en-GB&authuser=0)
 
 Firefox: [Download](https://github.com/RyanCheddar/fhda-old-myportal-redirect/releases/download/yay/firefox.xpi)
 
