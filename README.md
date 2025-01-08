@@ -14,7 +14,7 @@ Chrome/Most Browsers: [Chrome Web Store](https://chromewebstore.google.com/detai
 
 Firefox: [Download](https://github.com/RyanCheddar/fhda-old-myportal-redirect/releases/download/yay/firefox.xpi)
 
-Safari (iPhone, iPad and Mac): [Testflight Link](https://testflight.apple.com/join/rQJw3qjX)
+Safari (iPhone, iPad and Mac): [Testflight Link](https://testflight.apple.com/join/rQJw3qjX)  
 .app for Macs available in Releases
 
 # Supported Browsers
