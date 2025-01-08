@@ -12,5 +12,8 @@ also injects css to the old fhda myportal so you don't see the nag message telli
 # Installation
 google how to install unpacked extensions because idk either
 
+# Supported Browsers
+i built this on manifest v3 it should work on most up-to-date modern browsers
+
 # What's next
 make the extension not ddos fhda servers if they decide to get rid of the old portal
