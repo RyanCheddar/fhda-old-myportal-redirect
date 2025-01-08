@@ -1,5 +1,5 @@
 function redirect(requestDetails) {
-    console.log(`Redirecting to new MyPortal`);
+    console.log(`Redirecting to old MyPortal`);
     return {
         redirectURL: "https://portal.aws.fhda.edu/uPortal/f/home/normal/render.uP",
     };
