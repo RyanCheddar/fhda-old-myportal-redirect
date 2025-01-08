@@ -14,7 +14,7 @@ Chrome/Most Browsers: [Chrome Web Store](https://chromewebstore.google.com/detai
 
 Firefox: [Download](https://github.com/RyanCheddar/fhda-old-myportal-redirect/releases/download/yay/firefox.xpi)
 
-Safari: TBA
+Safari: [Testflight Link](https://testflight.apple.com/join/rQJw3qjX)
 
 # Supported Browsers
 i built this on manifest v3 it should work on most up-to-date modern browsers
