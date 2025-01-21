@@ -6,7 +6,8 @@
     "browser_specific_settings": {
       "gecko": {
         "id": "rejectmodernity@ryansbakery.dev",
-        "strict_min_version": "113.0"
+        "strict_min_version": "113.0",
+        "update_url": "https://raw.githubusercontent.com/RyanCheddar/fhda-old-myportal-redirect/refs/heads/main/firefox_update.json"
       }
     },
   
