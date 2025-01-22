@@ -1,0 +1,973 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF48C1302D2F205300E285FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF48C12F2D2F205300E285FB /* AppDelegate.swift */; };
+		BF48C1322D2F205300E285FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF48C1312D2F205300E285FB /* SceneDelegate.swift */; };
+		BF48C1352D2F205300E285FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF48C1332D2F205300E285FB /* LaunchScreen.storyboard */; };
+		BF48C1382D2F205300E285FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF48C1362D2F205300E285FB /* Main.storyboard */; };
+		BF48C1412D2F205300E285FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF48C1402D2F205300E285FB /* AppDelegate.swift */; };
+		BF48C1442D2F205300E285FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF48C1422D2F205300E285FB /* Main.storyboard */; };
+		BF48C14C2D2F205300E285FB /* Reject Modernity Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = BF48C14B2D2F205300E285FB /* Reject Modernity Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BF48C1562D2F205300E285FB /* Reject Modernity Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = BF48C1552D2F205300E285FB /* Reject Modernity Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BF48C15C2D2F205300E285FB /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = BF48C11F2D2F205200E285FB /* Main.html */; };
+		BF48C15D2D2F205300E285FB /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = BF48C11F2D2F205200E285FB /* Main.html */; };
+		BF48C15E2D2F205300E285FB /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BF48C1212D2F205200E285FB /* Icon.png */; };
+		BF48C15F2D2F205300E285FB /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BF48C1212D2F205200E285FB /* Icon.png */; };
+		BF48C1602D2F205300E285FB /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = BF48C1222D2F205200E285FB /* Style.css */; };
+		BF48C1612D2F205300E285FB /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = BF48C1222D2F205200E285FB /* Style.css */; };
+		BF48C1622D2F205300E285FB /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = BF48C1232D2F205200E285FB /* Script.js */; };
+		BF48C1632D2F205300E285FB /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = BF48C1232D2F205200E285FB /* Script.js */; };
+		BF48C1642D2F205300E285FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF48C1242D2F205200E285FB /* ViewController.swift */; };
+		BF48C1652D2F205300E285FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF48C1242D2F205200E285FB /* ViewController.swift */; };
+		BF48C1662D2F205300E285FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF48C1252D2F205300E285FB /* Assets.xcassets */; };
+		BF48C1672D2F205300E285FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF48C1252D2F205300E285FB /* Assets.xcassets */; };
+		BF48C1682D2F205300E285FB /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF48C1272D2F205300E285FB /* SafariWebExtensionHandler.swift */; };
+		BF48C1692D2F205300E285FB /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF48C1272D2F205300E285FB /* SafariWebExtensionHandler.swift */; };
+		BF48C1802D2F205400E285FB /* rule.json in Resources */ = {isa = PBXBuildFile; fileRef = BF48C17B2D2F205400E285FB /* rule.json */; };
+		BF48C1812D2F205400E285FB /* bye.css in Resources */ = {isa = PBXBuildFile; fileRef = BF48C17C2D2F205400E285FB /* bye.css */; };
+		BF48C1832D2F205400E285FB /* icons in Resources */ = {isa = PBXBuildFile; fileRef = BF48C17E2D2F205400E285FB /* icons */; };
+		BF48C1842D2F205400E285FB /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = BF48C17F2D2F205400E285FB /* manifest.json */; };
+		BF48C1852D2F205400E285FB /* rule.json in Resources */ = {isa = PBXBuildFile; fileRef = BF48C17B2D2F205400E285FB /* rule.json */; };
+		BF48C1862D2F205400E285FB /* bye.css in Resources */ = {isa = PBXBuildFile; fileRef = BF48C17C2D2F205400E285FB /* bye.css */; };
+		BF48C1882D2F205400E285FB /* icons in Resources */ = {isa = PBXBuildFile; fileRef = BF48C17E2D2F205400E285FB /* icons */; };
+		BF48C1892D2F205400E285FB /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = BF48C17F2D2F205400E285FB /* manifest.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF48C14D2D2F205300E285FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF48C1192D2F205200E285FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF48C14A2D2F205300E285FB;
+			remoteInfo = "Reject Modernity - FHDA MyPortal Redirecter Extension (iOS)";
+		};
+		BF48C1572D2F205300E285FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF48C1192D2F205200E285FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF48C1542D2F205300E285FB;
+			remoteInfo = "Reject Modernity - FHDA MyPortal Redirecter Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BF48C16F2D2F205300E285FB /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BF48C14C2D2F205300E285FB /* Reject Modernity Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF48C1762D2F205300E285FB /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BF48C1562D2F205300E285FB /* Reject Modernity Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BF48C1202D2F205200E285FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/Main.html; sourceTree = "<group>"; };
+		BF48C1212D2F205200E285FB /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		BF48C1222D2F205200E285FB /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		BF48C1232D2F205200E285FB /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		BF48C1242D2F205200E285FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BF48C1252D2F205300E285FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF48C1272D2F205300E285FB /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		BF48C12C2D2F205300E285FB /* Reject Modernity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Reject Modernity.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF48C12F2D2F205300E285FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF48C1312D2F205300E285FB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BF48C1342D2F205300E285FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF48C1372D2F205300E285FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF48C1392D2F205300E285FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF48C13E2D2F205300E285FB /* Reject Modernity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Reject Modernity.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF48C1402D2F205300E285FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF48C1432D2F205300E285FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF48C1452D2F205300E285FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF48C1462D2F205300E285FB /* Reject Modernity - FHDA MyPortal Redirecter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Reject Modernity - FHDA MyPortal Redirecter.entitlements"; sourceTree = "<group>"; };
+		BF48C14B2D2F205300E285FB /* Reject Modernity Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Reject Modernity Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF48C1502D2F205300E285FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF48C1552D2F205300E285FB /* Reject Modernity Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Reject Modernity Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF48C15A2D2F205300E285FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF48C15B2D2F205300E285FB /* Reject Modernity - FHDA MyPortal Redirecter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Reject Modernity - FHDA MyPortal Redirecter.entitlements"; sourceTree = "<group>"; };
+		BF48C17B2D2F205400E285FB /* rule.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = rule.json; path = ../../rule.json; sourceTree = "<group>"; };
+		BF48C17C2D2F205400E285FB /* bye.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = bye.css; path = ../../bye.css; sourceTree = "<group>"; };
+		BF48C17E2D2F205400E285FB /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = icons; path = ../../icons; sourceTree = "<group>"; };
+		BF48C17F2D2F205400E285FB /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../manifest.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF48C1292D2F205300E285FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF48C13B2D2F205300E285FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF48C1482D2F205300E285FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF48C1522D2F205300E285FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF48C1182D2F205200E285FB = {
+			isa = PBXGroup;
+			children = (
+				BF48C11D2D2F205200E285FB /* Shared (App) */,
+				BF48C1262D2F205300E285FB /* Shared (Extension) */,
+				BF48C12E2D2F205300E285FB /* iOS (App) */,
+				BF48C13F2D2F205300E285FB /* macOS (App) */,
+				BF48C14F2D2F205300E285FB /* iOS (Extension) */,
+				BF48C1592D2F205300E285FB /* macOS (Extension) */,
+				BF48C12D2D2F205300E285FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF48C11D2D2F205200E285FB /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				BF48C1242D2F205200E285FB /* ViewController.swift */,
+				BF48C1252D2F205300E285FB /* Assets.xcassets */,
+				BF48C11E2D2F205200E285FB /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		BF48C11E2D2F205200E285FB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BF48C11F2D2F205200E285FB /* Main.html */,
+				BF48C1212D2F205200E285FB /* Icon.png */,
+				BF48C1222D2F205200E285FB /* Style.css */,
+				BF48C1232D2F205200E285FB /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BF48C1262D2F205300E285FB /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				BF48C17A2D2F205400E285FB /* Resources */,
+				BF48C1272D2F205300E285FB /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		BF48C12D2D2F205300E285FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF48C12C2D2F205300E285FB /* Reject Modernity.app */,
+				BF48C13E2D2F205300E285FB /* Reject Modernity.app */,
+				BF48C14B2D2F205300E285FB /* Reject Modernity Extension.appex */,
+				BF48C1552D2F205300E285FB /* Reject Modernity Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF48C12E2D2F205300E285FB /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				BF48C12F2D2F205300E285FB /* AppDelegate.swift */,
+				BF48C1312D2F205300E285FB /* SceneDelegate.swift */,
+				BF48C1332D2F205300E285FB /* LaunchScreen.storyboard */,
+				BF48C1362D2F205300E285FB /* Main.storyboard */,
+				BF48C1392D2F205300E285FB /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		BF48C13F2D2F205300E285FB /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				BF48C1402D2F205300E285FB /* AppDelegate.swift */,
+				BF48C1422D2F205300E285FB /* Main.storyboard */,
+				BF48C1452D2F205300E285FB /* Info.plist */,
+				BF48C1462D2F205300E285FB /* Reject Modernity - FHDA MyPortal Redirecter.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		BF48C14F2D2F205300E285FB /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				BF48C1502D2F205300E285FB /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		BF48C1592D2F205300E285FB /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				BF48C15A2D2F205300E285FB /* Info.plist */,
+				BF48C15B2D2F205300E285FB /* Reject Modernity - FHDA MyPortal Redirecter.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		BF48C17A2D2F205400E285FB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BF48C17B2D2F205400E285FB /* rule.json */,
+				BF48C17C2D2F205400E285FB /* bye.css */,
+				BF48C17E2D2F205400E285FB /* icons */,
+				BF48C17F2D2F205400E285FB /* manifest.json */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF48C12B2D2F205300E285FB /* Reject Modernity (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF48C1702D2F205300E285FB /* Build configuration list for PBXNativeTarget "Reject Modernity (iOS)" */;
+			buildPhases = (
+				BF48C1282D2F205300E285FB /* Sources */,
+				BF48C1292D2F205300E285FB /* Frameworks */,
+				BF48C12A2D2F205300E285FB /* Resources */,
+				BF48C16F2D2F205300E285FB /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF48C14E2D2F205300E285FB /* PBXTargetDependency */,
+			);
+			name = "Reject Modernity (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "Reject Modernity - FHDA MyPortal Redirecter (iOS)";
+			productReference = BF48C12C2D2F205300E285FB /* Reject Modernity.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF48C13D2D2F205300E285FB /* Reject Modernity (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF48C1772D2F205300E285FB /* Build configuration list for PBXNativeTarget "Reject Modernity (macOS)" */;
+			buildPhases = (
+				BF48C13A2D2F205300E285FB /* Sources */,
+				BF48C13B2D2F205300E285FB /* Frameworks */,
+				BF48C13C2D2F205300E285FB /* Resources */,
+				BF48C1762D2F205300E285FB /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF48C1582D2F205300E285FB /* PBXTargetDependency */,
+			);
+			name = "Reject Modernity (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "Reject Modernity - FHDA MyPortal Redirecter (macOS)";
+			productReference = BF48C13E2D2F205300E285FB /* Reject Modernity.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF48C14A2D2F205300E285FB /* Reject Modernity Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF48C16C2D2F205300E285FB /* Build configuration list for PBXNativeTarget "Reject Modernity Extension (iOS)" */;
+			buildPhases = (
+				BF48C1472D2F205300E285FB /* Sources */,
+				BF48C1482D2F205300E285FB /* Frameworks */,
+				BF48C1492D2F205300E285FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Reject Modernity Extension (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "Reject Modernity - FHDA MyPortal Redirecter Extension (iOS)";
+			productReference = BF48C14B2D2F205300E285FB /* Reject Modernity Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		BF48C1542D2F205300E285FB /* Reject Modernity Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF48C1732D2F205300E285FB /* Build configuration list for PBXNativeTarget "Reject Modernity Extension (macOS)" */;
+			buildPhases = (
+				BF48C1512D2F205300E285FB /* Sources */,
+				BF48C1522D2F205300E285FB /* Frameworks */,
+				BF48C1532D2F205300E285FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Reject Modernity Extension (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "Reject Modernity - FHDA MyPortal Redirecter Extension (macOS)";
+			productReference = BF48C1552D2F205300E285FB /* Reject Modernity Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF48C1192D2F205200E285FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					BF48C12B2D2F205300E285FB = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					BF48C13D2D2F205300E285FB = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					BF48C14A2D2F205300E285FB = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					BF48C1542D2F205300E285FB = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = BF48C11C2D2F205200E285FB /* Build configuration list for PBXProject "Reject Modernity" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF48C1182D2F205200E285FB;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = BF48C12D2D2F205300E285FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF48C12B2D2F205300E285FB /* Reject Modernity (iOS) */,
+				BF48C13D2D2F205300E285FB /* Reject Modernity (macOS) */,
+				BF48C14A2D2F205300E285FB /* Reject Modernity Extension (iOS) */,
+				BF48C1542D2F205300E285FB /* Reject Modernity Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF48C12A2D2F205300E285FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF48C15E2D2F205300E285FB /* Icon.png in Resources */,
+				BF48C1352D2F205300E285FB /* LaunchScreen.storyboard in Resources */,
+				BF48C15C2D2F205300E285FB /* Main.html in Resources */,
+				BF48C1622D2F205300E285FB /* Script.js in Resources */,
+				BF48C1662D2F205300E285FB /* Assets.xcassets in Resources */,
+				BF48C1382D2F205300E285FB /* Main.storyboard in Resources */,
+				BF48C1602D2F205300E285FB /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF48C13C2D2F205300E285FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF48C15F2D2F205300E285FB /* Icon.png in Resources */,
+				BF48C1612D2F205300E285FB /* Style.css in Resources */,
+				BF48C1442D2F205300E285FB /* Main.storyboard in Resources */,
+				BF48C1632D2F205300E285FB /* Script.js in Resources */,
+				BF48C1672D2F205300E285FB /* Assets.xcassets in Resources */,
+				BF48C15D2D2F205300E285FB /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF48C1492D2F205300E285FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF48C1882D2F205400E285FB /* icons in Resources */,
+				BF48C1892D2F205400E285FB /* manifest.json in Resources */,
+				BF48C1862D2F205400E285FB /* bye.css in Resources */,
+				BF48C1852D2F205400E285FB /* rule.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF48C1532D2F205300E285FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF48C1832D2F205400E285FB /* icons in Resources */,
+				BF48C1842D2F205400E285FB /* manifest.json in Resources */,
+				BF48C1812D2F205400E285FB /* bye.css in Resources */,
+				BF48C1802D2F205400E285FB /* rule.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF48C1282D2F205300E285FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF48C1642D2F205300E285FB /* ViewController.swift in Sources */,
+				BF48C1302D2F205300E285FB /* AppDelegate.swift in Sources */,
+				BF48C1322D2F205300E285FB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF48C13A2D2F205300E285FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF48C1652D2F205300E285FB /* ViewController.swift in Sources */,
+				BF48C1412D2F205300E285FB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF48C1472D2F205300E285FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF48C1682D2F205300E285FB /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF48C1512D2F205300E285FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF48C1692D2F205300E285FB /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF48C14E2D2F205300E285FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF48C14A2D2F205300E285FB /* Reject Modernity Extension (iOS) */;
+			targetProxy = BF48C14D2D2F205300E285FB /* PBXContainerItemProxy */;
+		};
+		BF48C1582D2F205300E285FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF48C1542D2F205300E285FB /* Reject Modernity Extension (macOS) */;
+			targetProxy = BF48C1572D2F205300E285FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF48C11F2D2F205200E285FB /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF48C1202D2F205200E285FB /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		BF48C1332D2F205300E285FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF48C1342D2F205300E285FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		BF48C1362D2F205300E285FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF48C1372D2F205300E285FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF48C1422D2F205300E285FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF48C1432D2F205300E285FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF48C16A2D2F205300E285FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF48C16B2D2F205300E285FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		BF48C16D2D2F205300E285FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q7GMZVMBCN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Reject Modernity - FHDA MyPortal Redirecter Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.ryansbakery.rejectmodernity.extension;
+				PRODUCT_NAME = "Reject Modernity Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF48C16E2D2F205300E285FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q7GMZVMBCN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Reject Modernity - FHDA MyPortal Redirecter Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.ryansbakery.rejectmodernity.extension;
+				PRODUCT_NAME = "Reject Modernity Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF48C1712D2F205300E285FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q7GMZVMBCN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Reject Modernity - FHDA MyPortal Redirecter";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.ryansbakery.rejectmodernity;
+				PRODUCT_NAME = "Reject Modernity";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF48C1722D2F205300E285FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q7GMZVMBCN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Reject Modernity - FHDA MyPortal Redirecter";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.ryansbakery.rejectmodernity;
+				PRODUCT_NAME = "Reject Modernity";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF48C1742D2F205300E285FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Reject Modernity - FHDA MyPortal Redirecter.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = Q7GMZVMBCN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Reject Modernity - FHDA MyPortal Redirecter Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.2;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.ryansbakery.rejectmodernity.extension;
+				PRODUCT_NAME = "Reject Modernity Extension";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BF48C1752D2F205300E285FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Reject Modernity - FHDA MyPortal Redirecter.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = Q7GMZVMBCN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Reject Modernity - FHDA MyPortal Redirecter Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.2;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.ryansbakery.rejectmodernity.extension;
+				PRODUCT_NAME = "Reject Modernity Extension";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		BF48C1782D2F205300E285FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Reject Modernity - FHDA MyPortal Redirecter.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = Q7GMZVMBCN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Reject Modernity - FHDA MyPortal Redirecter";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.2;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.ryansbakery.rejectmodernity;
+				PRODUCT_NAME = "Reject Modernity";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BF48C1792D2F205300E285FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Reject Modernity - FHDA MyPortal Redirecter.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = Q7GMZVMBCN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Reject Modernity - FHDA MyPortal Redirecter";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.2;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.ryansbakery.rejectmodernity;
+				PRODUCT_NAME = "Reject Modernity";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF48C11C2D2F205200E285FB /* Build configuration list for PBXProject "Reject Modernity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF48C16A2D2F205300E285FB /* Debug */,
+				BF48C16B2D2F205300E285FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF48C16C2D2F205300E285FB /* Build configuration list for PBXNativeTarget "Reject Modernity Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF48C16D2D2F205300E285FB /* Debug */,
+				BF48C16E2D2F205300E285FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF48C1702D2F205300E285FB /* Build configuration list for PBXNativeTarget "Reject Modernity (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF48C1712D2F205300E285FB /* Debug */,
+				BF48C1722D2F205300E285FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF48C1732D2F205300E285FB /* Build configuration list for PBXNativeTarget "Reject Modernity Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF48C1742D2F205300E285FB /* Debug */,
+				BF48C1752D2F205300E285FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF48C1772D2F205300E285FB /* Build configuration list for PBXNativeTarget "Reject Modernity (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF48C1782D2F205300E285FB /* Debug */,
+				BF48C1792D2F205300E285FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF48C1192D2F205200E285FB /* Project object */;
+}
