@@ -1,7 +1,7 @@
 # Reject Modernity
 why new myportal if old myportal do trick
 
-<img src="/assets/no.jpg" height="50%"/>
+<img src="/assets/no.jpg" height="360"/>
 
 # Background
 de anza college and foothill college have a new portal, it's kinda bad so i made an addon to redirect back to the old portal
