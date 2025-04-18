@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Reject Modernity - FHDA MyPortal Redirecter",
-    "version": "1.2",
+    "version": "1.3",
 
     "browser_specific_settings": {
       "gecko": {
@@ -11,38 +11,11 @@
       }
     },
   
-    "description": "Makes you never see the new FHDA MyPortal.",
-
-    "content_scripts": [
-      {
-        "matches": ["*://portal.aws.fhda.edu/uPortal/*"],
-        "css": ["bye.css"],
-        "run_at": "document_start"
-      }
-    ],
-
-    "declarative_net_request" : {
-        "rule_resources" : [{
-          "id": "ruleset",
-          "enabled": true,
-          "path": "rule.json"
-        }]
-      },
+    "description": "This extension is now disabled.",
   
     "icons": {
       "48": "icons/oldman.png",
       "96": "icons/oldman@2x.png"
     },
-
-    "host_permissions": [
-      "*://portal.aws.fhda.edu/uPortal/*",
-      "*://myportal.fhda.edu/*",
-      "*://experience.elluciancloud.com/fdaccdso/*"
-    ],
-
-    "permissions": [
-      "declarativeNetRequest",
-      "declarativeNetRequestWithHostAccess"
-    ]
   }
   
