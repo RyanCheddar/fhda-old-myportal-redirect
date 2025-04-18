@@ -3,8 +3,8 @@
     "rejectmodernity@ryansbakery.dev": {
       "updates": [
         {
-          "version": "1.1",
-          "update_link": "https://github.com/RyanCheddar/fhda-old-myportal-redirect/releases/download/yay/firefox.xpi",
+          "version": "1.3",
+          "update_link": "https://github.com/RyanCheddar/fhda-old-myportal-redirect/releases/download/1.3/firefox-disabler.xpi",
           "applications": {
             "gecko": { "strict_min_version": "113.0" }
           }
